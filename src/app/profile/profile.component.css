@@ -80,7 +80,9 @@
   }
 
   .card.card-small {
-    height: 168px;
+    display: block;
+    text-align: center;
+    height: 200px;
     width: 168px;
   }
 
@@ -107,7 +109,6 @@
     justify-content: space-between;
     /* min-width: 30%; */
     position: relative;
-    background-image: url(../assets/gradientbg.jpg);
   }
 
   a,
@@ -145,7 +146,7 @@
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
 
-    .card-container > *:not(.circle-link) {
+    .card-container > * {
       width: 100%;
     }
 
@@ -156,5 +157,8 @@
   }
 
   @media screen and (max-width: 575px) {
-
+    svg#rocket-smoke {
+      display: none;
+      visibility: hidden;
+    }
   }
