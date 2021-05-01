@@ -1,0 +1,44 @@
+.projects{
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+}
+.proj1{
+    position: relative;
+    margin-top: 0;
+}
+.caption{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 340px;
+    height: 205px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    color: #fff;
+    background: rgb(231, 94, 123);;
+    transition: opacity 0.25s ease;
+    justify-content: space-around;
+}
+.caption:hover{
+    opacity: 0.9;
+}
+.project-name{
+    font-size: 2rem;
+    padding: 10px;
+}
+@media screen and (max-width: 767px) {
+
+    .projects {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .proj1{
+        display: flex;
+        justify-content: center;
+        margin: 25px 10px 50px 10px;
+    }
+
+}
