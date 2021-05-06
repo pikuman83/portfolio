@@ -5,19 +5,20 @@
 }
 .proj1{
     position: relative;
-    margin-top: 0;
+    border: 1px solid gray;
+    align-items: center;
 }
 .caption{
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 340px;
-    height: 205px;
+    height: 185px;
     position: absolute;
     bottom: 0;
     opacity: 0;
     color: #fff;
-    background: rgb(231, 94, 123);;
+    background: #F16A6B;
     transition: opacity 0.25s ease;
     justify-content: space-around;
 }

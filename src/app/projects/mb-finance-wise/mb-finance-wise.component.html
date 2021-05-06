@@ -1,24 +1,94 @@
-<p> 
-    MB-Finance-Wise is a very complete "Enterprise Resource Planning" app, 
-    made specially for the shoe maker industry but adaptable to huge variety of markets.
-    <br>This PWA is able to handle the Accounting, Purchase, Sales, Production, Inventory as well as Payroll department,
-    analise their data to provide output in shape of 50+ Reports.
-    <br>The frontend is developed using Angular framework, .Net Core is used to connect to the MSSQL database and to create resources,
-    Also ASP.NET is used to read and export reports made in SAP Crystal Reports.
-    <br>In terms of languages, the code marked up by HTML has been decorated through CSS and Bootstrap, 
-    TypeScript & JavaScript has brought the logic to the frontend, C# has taken care of the backend and 
-    SQL Queries & LINQ to analise data. 
-    <br>The app was first deployed and hosted in Azure and later-on was shifted to a personal server of the company through IIS.
-    Local storage, Session storage, Singleton Services are used to store and handle the data on the client side.
-    <br>A Splash screen showing log is used with "Resolver" to load the data and dashboard on the app start.
-    <br>Ngx-charts to enhance the view of the landing page.
-    <br>Angular material has broght the elegance, specially to sortable paginated tables. 
-    <br>Frontend routes has been secured by guard, the user is validated through JWT and the http interceptor adds the token 
-    to all the calls to the cloud. Also 20 minutes inactivity logout at hte client side and a 2 hours token expiration has been added.
-    <br>For the web, manifest.webmanifest has personalized the app, also a manual installation prompt and instructions has been added.
-    <br>An APK of the app has also been developed using cordova.
-    <br>The code can be viewed at the following Github Links;
-    <br><a href="https://github.com/pikuman83/Omega19">Frontend</a> 
-    <br><a href="https://github.com/pikuman83/mbfwBK">Backend</a> 
-</p>
-<p>PD: All the above mentioned development has been made by me except majority of SQL queries and Report designing on SAP</p>
+<div class="header">
+    <h2>FinanceWise</h2>
+    <h1>An "Enterprise Resource Planning" system, 
+        <br>aligning financial management, human resources, supply chain management,
+        <br> manufacturing and distribution with the core function of accounting.</h1>
+    <img alt="ERP" (window.resize)="respWidthP($event)" src="../../../assets/mbfw-cashsale-wide.png" [width]="width">
+</div>
+
+<div class="inner-container">
+    <div class="briefing">
+        <div class="tech">
+            <h2>TECHNOLOGIES</h2>
+            <p>.NET Core</p>
+            <p>Angular Framework</p>
+            <p>ASP.NET</p>
+            <p>MSSQL</p>
+            <p>SAP Crystal Reports</p>
+            <p>Bootstrap</p>
+        </div>
+        <div class="services">
+            <h2>SERVICES</h2>
+            <p>Project Management</p>
+            <p>Frontend Development</p>
+            <p>Backend Development</p>
+            <p>Deployments & Hostings</p>
+        </div>
+    </div>
+    <div class="section3">
+        <p class="heading1">Overview</p>
+        <p>This PWA analizes data through integrated Finance Management, Purchase, Sales, 
+            Production & Inventory departments to provide real-time visibility into all corners of the business, 
+            as well as advanced reporting to enable confident and timely decision making.
+            On the other hand with the HR department, the app covers the full features like employee's finance, salary slips, reports,
+            advance payments, overtime, attendance etc.
+        </p>
+        
+        <p class="heading1">Development & Key Challanges</p>
+        <p> 
+            Right after 2 months of tutorials from MDN, Angular Docs and some Blogs to quickly start-up 
+            the backend part of the app, I started development with this project as my first.
+            With so many aspects in mind, the app structuring was the first challenge.
+            Some of the other technical challenges were securing the API, State Control using singleton Services, 
+            asynchronous task processing, SAP crystal reports incorporation using FOC tools, deployments on various 
+            platforms (Azure, IIS, smarterasp.net, firebase, netlify ...). 
+            Performing calculations on large datasets and parsing huge data files. Pitch and Performance tracking 
+            data visualisation, according to different sets of parameters. 
+            Presenting users with the opportunity to manage, analyse and optimise data in runtime and real-time.
+        </p>
+        
+        <div class="central-image">
+            <img src="../../../assets/mbfw-formulation-mobile.png" alt="MBFW" [width]="width"> 
+            <!-- <img src="../../../assets/mbfw-mobile.png" alt="MBFW">  -->
+        </div>
+        
+        <ul>
+            <li>The frontend is developed using Angular framework, .Net Core is used to connect to the 
+                MSSQL database and to create resources, also ASP.NET is used to read and export reports made 
+                in SAP Crystal Reports.</li>
+            <li>In terms of languages, the code marked up by HTML has been decorated through CSS and Bootstrap, 
+            TypeScript & JavaScript has brought the logic to the frontend under Angular Framework, C# has taken 
+            care of the backend and SQL Queries & LINQ to analise data.</li>
+            <li>The app was first deployed and hosted in Azure and later-on was shifted to a personal server of 
+                the company through IIS. </li>
+            <li>Local storage, Session storage, Singleton Services are used to store and handle the data on the client side.</li>
+            <li>A Splash screen showing log is used with "Resolver" to load the data and dashboard on the app start.</li>
+            <li>Ngx-charts to enhance the view of the landing page.</li>
+            <li>Angular material has broght the elegance, specially to sortable paginated tables.</li>
+            <li>Frontend routes has been secured by guard and http interceptor, the user is validated through JWT. 
+                Also a 20 minutes inactivity logout at the client side and a 2 hours token expiration has been added.</li>
+            <li>For the web, manifest.webmanifest has personalized the app installation, 
+                also a manual installation prompt and instructions has been added.</li>
+            <li>An APK of the app has also been developed using cordova.</li>
+        </ul>
+
+        <p class="heading1">Timeline</p>
+        <p>
+            Project kick-off was the mid of July 2020.
+            Several months later, in December 2020, the app with 70%+ Pitch Management flow ready, 
+            was shifted to the Q&A for bug triage and a detailed testing. 
+            This is when unfortunately we had to pause the project due to the financial crises caused 
+            by the pandemic and a new smaller project was renegotiated for the client who were already 
+            using the desktop version of this ERP, a PWA with <a routerLink="/mbExecutive">Executive dashboard & Reports</a>.  
+        </p>
+
+    <p class="heading1">Github</p>
+    <!-- <img src="../../../assets/coding.png" alt="Code"> -->
+    <ul>
+        <li><a href="https://github.com/pikuman83/Omega19" target="_blank">Frontend</a></li>
+        <li><a href="https://github.com/pikuman83/mbfwBK" target="_blank">Backend</a></li>
+    </ul>
+         
+    <footer>PD: All the above mentioned development has been made by me except majority of SQL queries and Report designing on SAP</footer>
+    </div>
+</div>

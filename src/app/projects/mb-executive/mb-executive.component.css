@@ -1,0 +1,70 @@
+.header{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 60px;
+    align-items: center ;
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 60px;
+    line-height: normal;
+}
+.briefing{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    padding: 40px;
+}
+.tech{
+    display: block;
+}
+.heading1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 40px 8px 40px 0;
+}
+.section3{
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: normal;
+}
+.section3 p:not(.heading1){
+    text-align: justify;
+}
+.services, .tech{
+    border-left: 1px lightgray solid;
+    padding: 0 8px 0 8px;
+}
+li{
+    margin-left: 40px;
+    line-height: 2rem;
+}
+footer{
+    font-size: small;
+    font-style: italic;
+    color: gray;
+    margin-top: 60px;
+}
+.central-image{
+    display: flex;
+    margin: 48px 0 48px 0;
+    justify-content: center;
+}
+@media screen and (max-width: 767px){
+    .section3{
+        max-width: 90%;
+    }
+    h2{
+        font-size: medium;
+    }
+    ul{
+        padding: 0;
+    }
+}
