@@ -1,5 +1,6 @@
 .outer-container{
-  background:url(../assets/gradientbg.jpg) ;
+  background:url(../assets/gradientbg.jpg);
+  padding-bottom: 48px;
 }
 .card-container {
   display: flex;
