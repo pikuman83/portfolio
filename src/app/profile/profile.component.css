@@ -45,6 +45,8 @@ p {
   text-align: center;
   height: 200px;
   width: 168px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .card-container .card:not(.highlight-card) {
@@ -135,6 +137,8 @@ a:hover {
   .card-container > * {
     width: 100%;
     display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 
 }

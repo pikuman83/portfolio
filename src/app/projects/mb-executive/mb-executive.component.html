@@ -1,7 +1,7 @@
-<div class="header">
+<div class="header" (window:resize)="respWidthP($event)">
     <h2>MB-EXECUTIVE</h2>
     <h1>Financial Dashboard & Reports</h1>
-    <img class="img-shadow" alt="ERP" (window.resize)="respWidthP($event)" src="../../../assets/dashboard-charts.png" [width]="width">
+    <img class="img-shadow" alt="ERP" src="../../../assets/dashboard-charts.png" [width]="width">
 </div>
 
 <div class="inner-container">
@@ -41,7 +41,7 @@
             Default date ranges, scalability and Hosting.
         </p>
         
-        <div class="central-image">
+        <div class="central-image" (window:resize)="respWidthP($event)">
             <img src="../../../assets/dashboardTop.png" alt="MBFW" [width]="width"> 
         </div>
         

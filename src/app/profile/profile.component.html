@@ -38,54 +38,54 @@
     
     <h2 class="hobbies">Some other things I like to do in my spare time</h2>
 
-    <div class="card-container">
+    <div class="card-container" (window:resize)="respWidthP($event)">
 
-      <div class="card card-small">
+      <div class="card card-small" name="fotoFrame" id="abc">
         <a href="../../assets/IMG_20160502_234654.jpg">
-          <img src="../assets/IMG_20160502_234654.jpg" width="168" height="168" alt="Ultimate Frisbee">
+          <img src="../assets/IMG_20160502_234654.jpg" [width]="width" [height]="height" alt="Ultimate Frisbee">
           <p>Ultimate Frisbee</p>
       </a>
       </div>
 
-      <div class="card card-small">
+      <div class="card card-small" name="fotoFrame">
         <a href="../../assets/IMG_20190310_141635-PANO.jpg">
-          <img src="../assets/IMG_20190310_141635-PANO.jpg" width="168" height="168" alt="Snow Boarding">
+          <img src="../assets/IMG_20190310_141635-PANO.jpg" [width]="width" [height]="height" alt="Snow Boarding">
           <p>Snow boarding</p></a>
       </div>
 
-      <div class="card card-small">
+      <div class="card card-small" name="fotoFrame">
         <a href="../../assets/20151113_170309.jpg">
-          <img src="../assets/20151113_170309.jpg" width="168" height="168" alt="Badminton">
+          <img src="../assets/20151113_170309.jpg" [width]="width" [height]="height" alt="Badminton">
           <p>Badminton</p></a>
       </div>
 
-      <div class="card card-small">
+      <div class="card card-small" name="fotoFrame">
         <a href="../../assets/IMG_20161010_201432.jpg">
-          <img src="../../assets/IMG_20161010_201432.jpg" width="168" height="168" alt="Zombie Walk">
+          <img src="../../assets/IMG_20161010_201432.jpg" [width]="width" [height]="height" alt="Zombie Walk">
           <p>Zombie Walk</p></a>
       </div>
   
-      <div class="card card-small">
+      <div class="card card-small" name="fotoFrame">
           <a href="../../assets/IMG-20181230-WA0256.jpg">
-          <img src="../assets/IMG-20181230-WA0256.jpg" width="168" height="168" alt="Mountains">
-        <p>Mountains</p></a>
+          <img src="../assets/IMG-20181230-WA0256.jpg" [width]="width" [height]="height" alt="Mountains">
+        <p>Hiking</p></a>
       </div>
   
-      <div class="card card-small">
+      <div class="card card-small" name="fotoFrame">
         <a href="../../assets/IMG_20190626_000703_231.jpg">
-          <img src="../assets/IMG_20190626_000703_231.jpg" width="168" height="168" alt="Rural">
+          <img src="../assets/IMG_20190626_000703_231.jpg" [width]="width" [height]="height" alt="Rural">
           <p>Rural Traditions</p></a>
       </div>
 
-      <div class="card card-small">
+      <div class="card card-small" name="fotoFrame">
         <a href="../../assets/IMG_20190715_204737_127.jpg">
-          <img src="../assets/IMG_20190715_204737_127.jpg" width="168" height="168" alt="Waterfalls">
+          <img src="../assets/IMG_20190715_204737_127.jpg" [width]="width" [height]="height" alt="Waterfalls">
           <p>Rivers & Waterfalls</p></a>
       </div>
 
-      <div class="card card-small">
+      <div class="card card-small" name="fotoFrame">
         <a href="../../assets/IMG-20190705-WA0026.jpg">
-          <img src="../../assets/IMG-20190705-WA0026.jpg" width="168" height="168" alt="Music Fests">
+          <img src="../../assets/IMG-20190705-WA0026.jpg" [width]="width" [height]="height" alt="Music Fests">
           <p>Music Festivals</p></a>
       </div>
     </div>

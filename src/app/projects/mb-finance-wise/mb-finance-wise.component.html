@@ -3,7 +3,7 @@
     <h1>An "Enterprise Resource Planning" system, 
         <br>aligning financial management, human resources, supply chain management,
         <br> manufacturing and distribution with the core function of accounting.</h1>
-    <img alt="ERP" (window.resize)="respWidthP($event)" src="../../../assets/mbfw-cashsale-wide.png" [width]="width">
+    <img alt="ERP" (window:resize)="respWidthP($event)" src="../../../assets/mbfw-cashsale-wide.png" [width]="width">
 </div>
 
 <div class="inner-container">
@@ -44,7 +44,7 @@
             platforms (Azure, IIS, smarterasp.net, firebase, netlify ...).
         </p>
         
-        <div class="central-image">
+        <div class="central-image" (window:resize)="respWidthP($event)">
             <img src="../../../assets/mbfw-formulation-mobile.png" alt="MBFW" [width]="width"> 
             <!-- <img src="../../../assets/mbfw-mobile.png" alt="MBFW">  -->
         </div>
