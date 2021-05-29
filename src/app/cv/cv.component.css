@@ -1,0 +1,90 @@
+.a4{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sidecol{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-right: 1px solid gray;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.main{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.sidecol > * {
+    list-style: none;
+}
+.motivation{
+    border-bottom: 1px solid grey;
+    padding-bottom: 24px;
+    text-align: center;
+}
+.profileCV{
+    display: none;
+}
+.flexboxes{
+    display: flex;
+    align-items: baseline;
+}
+.flexboxes img{
+    margin-right: 12px;
+}
+.main .flexboxes{
+    justify-content: space-between;
+}
+.main > p :not(:first-child){
+    font-style: italic;
+    margin: none;
+    padding: none;
+}
+h1{
+    font-size: 16px;
+    color: white;
+    background-color:gray;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-left: 8px;
+}
+h2 {
+    margin-bottom: 0px !important;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .sidecol, .main{
+        display: block;
+        width: 90%;
+        border: none;
+    }
+    .a4{
+        display: block;
+    }
+}
+@media print {
+    .profileCV{
+        display: block;
+        text-align: center;
+    }
+    h1{
+        color: gray;
+        font-weight: 700;
+    }
+    #email{
+        word-break: break-all;
+    }
+    #language{
+        font-size: smaller;
+    }
+    .printPageMargin{
+        margin-top: 100px;
+    }
+}

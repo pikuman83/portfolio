@@ -16,6 +16,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   margin-top: 16px;
   margin-bottom: none;
 }
@@ -24,20 +25,14 @@ p {
   border-radius: 4px;
   border: 1px solid #eee;
   background-color: #fafafa;
-  height: 40px;
   width: 200px;
   margin: 0 8px 16px;
   padding: 16px;
   display: flex;
-  /* flex-direction: row; */
   justify-content: center;
   align-items: center;
   transition: all 0.2s ease-in-out;
   line-height: 24px;
-}
-
-.card-container .card:not(:last-child) {
-  margin-right: 0;
 }
 
 .card.card-small {
@@ -46,7 +41,6 @@ p {
   height: 200px;
   width: 168px;
   text-align: center;
-  margin: 0 auto;
 }
 
 .card-container .card:not(.highlight-card) {
@@ -108,7 +102,6 @@ a:hover {
   border-bottom: dotted 2px grey;
   font-weight: 600;
   color: #F16A6B;
-  /* rgb(231, 94, 123); */
 }
 
 .separator{

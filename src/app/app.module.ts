@@ -11,6 +11,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { MbFinanceWiseComponent } from './projects/mb-finance-wise/mb-finance-wise.component';
 import { MbExecutiveComponent } from './projects/mb-executive/mb-executive.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { ContactComponent } from './contact/contact.component';
+import { CvComponent } from './cv/cv.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { TabsComponent } from './tabs/tabs.component';
     ProfileComponent,
     MbFinanceWiseComponent,
     MbExecutiveComponent,
-    TabsComponent
+    TabsComponent,
+    ContactComponent,
+    CvComponent
   ],
   imports: [
     BrowserModule,

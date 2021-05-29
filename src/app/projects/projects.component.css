@@ -16,14 +16,14 @@
     height: 185px;
     position: absolute;
     bottom: 0;
-    opacity: 0;
+    opacity: 1;
     color: #fff;
     background: #F16A6B;
     transition: opacity 0.25s ease;
     justify-content: space-around;
 }
 .caption:hover{
-    opacity: 0.9;
+    opacity: 0;
 }
 .project-name{
     font-size: 2rem;
