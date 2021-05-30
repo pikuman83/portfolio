@@ -11,7 +11,7 @@ export class TabsComponent implements OnInit {
 
   constructor(private router: Router) { }
 
-  selectedIndex = 0;
+  selectedIndex = 1;
   ngOnInit(): void {
     const i = Number(localStorage.getItem('tabIndex'));
     i? this.selectedIndex = i: this.selectedIndex = 0;

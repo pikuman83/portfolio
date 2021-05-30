@@ -10,13 +10,13 @@ export class ProfileComponent implements AfterViewInit {
   constructor() { }
 
   ngAfterViewInit(): void {
-    setTimeout(() => {
-      this.respWidth();
-    }, );
+    // setTimeout(() => {
+    //   this.respWidth();
+    // }, );
   }
 
-  width = 168;
-  height = 168;
+  width = 340;
+  height = 340;
 
   respWidth(){
     const i = document.getElementsByName('fotoFrame');
