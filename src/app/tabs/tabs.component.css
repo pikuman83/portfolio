@@ -2,7 +2,8 @@
 .mat-tab-label{
     color: #333;
     font-weight: 400;
-    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    /* letter-spacing: 1px; */
     /* margin-right: 2px; */
     font-size: 12px;
     border-color: #333;

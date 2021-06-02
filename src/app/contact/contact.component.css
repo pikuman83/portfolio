@@ -11,15 +11,6 @@
     cursor: pointer;
 }
 
-a, a:visited, a:hover {
-    color: #1976d2;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #125699;
-}
-
 .circle-link {
     height: 28px;
     width: 28px;

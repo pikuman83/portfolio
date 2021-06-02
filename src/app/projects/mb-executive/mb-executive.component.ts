@@ -13,7 +13,8 @@ export class MbExecutiveComponent implements OnInit {
     this.respWidth();
   }
 
-  width: number = 800;
+  // width: number = 800;
+  width = window.innerWidth - 10;
 
   respWidth(){
     if (window.innerWidth <= 850) {
