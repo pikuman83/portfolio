@@ -27,17 +27,66 @@
     color:white;
     font-size: small;
 }
-.overview{
+.par-left{
     max-width: 50%;
+    padding: 24px;
+    margin-bottom: 100px;
 }
-.img1{
+.align-right{
+    align-self: flex-end;
+    margin-top: 250px;
+}
+.img{
     margin: 0 auto;
     display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img1{
     width: 95%;
     padding-top: 70%;
     background-image: url(../../../assets/dashboard-charts.png);
+    opacity: 0.9;
+}
+.collage{
+    display: flex;
+}
+.img2{
+    width: 100%;
+    padding-top: 41%;
+    background-image: url(../../../assets/dashboardTop.png);
+}
+.img3{
+    width: 33.3%;
+    padding-top: 81%;
+    background-repeat: no-repeat;
+    background-image: url(../../../assets/dashboard-login.png);
+    background-size: contain;
+    position: relative;
+    top: 300px;
+}
+.img4{
+    width: 33.3%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 81%;
+    background-image: url(../../../assets/dashboard-mobile.png);
+    position: relative;
+    top: 500px;
+}
+.img5{
+    width: 33.3%;
     background-size: contain;
     background-repeat: no-repeat;
+    padding-top: 81%;
+    background-image: url(../../../assets/dashboard-mob-daterange.png);
+    position: relative;
+    top: 50px;
+}
+.img6{
+    width: 100%;
+    padding-top: 49%;
+    background-image: url(../../../assets/dashboard-dialogue.png);
     opacity: 0.9;
 }
 .inner-container1{
@@ -49,13 +98,17 @@
 .section2{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    padding: 36px;
+    /* padding: 36px; */
     display: flex;
     flex-direction: column;
     max-width: 70%;
 }
 .problem{
     max-width: 100%;
+}
+.reports{
+    text-align: center;
+    margin: 100px;
 }
 .briefing{
     display: flex;
@@ -94,10 +147,18 @@ li{
     .section3{
         max-width: 90%;
     }
+    .section2{
+        max-width: unset;
+        padding: 24px 8px 8px 8px;
+        /* margin-top: 60px; */
+    }
     .briefing{
         display: block;
         max-width: unset;
         margin: 0 auto;
+    }
+    .collage{
+        display: block;
     }
     h2{
         font-size: medium;
@@ -114,8 +175,10 @@ li{
         padding-top: 0;
         margin-bottom: 60px;
     }
-    .overview{
+    .par-left{
         max-width: 100%;
+    }
+    .mt-60{
         margin-top: 60px;
     }
     .inner-container1{
