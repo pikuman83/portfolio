@@ -3,9 +3,9 @@
   <h2>Hey! I'm Wahab<br><span class="title">Barcelona based full stack app developer</span></h2>
   <app-contact class="contacts"></app-contact>
 </div>
-
+<!-- (selectedIndexChange)="saveIndex($event)" -->
 <div class="inner-container">
-  <mat-tab-group mat-align-tabs="end" [selectedIndex]="selectedIndex" (selectedIndexChange)="saveIndex($event)">
+  <mat-tab-group mat-align-tabs="end" [selectedIndex]="1">
       <mat-tab label="Profile">
         <app-profile></app-profile>
       </mat-tab>

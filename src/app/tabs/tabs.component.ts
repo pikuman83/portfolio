@@ -11,19 +11,20 @@ export class TabsComponent implements OnInit {
 
   constructor(private router: Router) { }
 
-  selectedIndex = 1;
-  ngOnInit(): void {
-    const i = Number(localStorage.getItem('tabIndex'));
-    i? this.selectedIndex = i: this.selectedIndex = 0;
-    console.log('saved index is',i)
-  }
+  ngOnInit(): void {}
 
-  saveIndex(i: any){
-    localStorage.setItem('tabIndex', i.toString())
-    console.log('saving tabIndex', i)
-  }
-
-  openCv(){
-    this.router.navigate(['/resume'])
-  }
 }
+
+
+//default tab manual implementation
+// selectedIndex = 1;
+// ngOnInit(): void {
+  //   const i = Number(localStorage.getItem('tabIndex'));
+  //   i? this.selectedIndex = i: this.selectedIndex = 0;
+  //   console.log('saved index is',i)
+  // }
+
+  // saveIndex(i: any){
+  //   localStorage.setItem('tabIndex', i.toString())
+  //   console.log('saving tabIndex', i)
+  // }

@@ -1,0 +1,98 @@
+.container{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: gainsboro;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.yo, .client{
+    margin: 24px auto;
+    padding-top: 8px;
+}
+.separator{
+    border-left: 1px darkgray solid;
+}
+.client{
+    min-width: 223.95px;
+}
+.heading{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin: 32px auto;
+}
+.heading h3{
+    font-family: 'Roboto Slab', serif;
+}
+.h2{
+    padding-top: 36px;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    display: block;   
+}
+h2:not(.heading h2){
+    margin-top: 36px;
+    padding-bottom: 6px;
+    font-weight: 400;
+    border-bottom: 1px dotted darkgray;
+}
+h3:not(.client h3){
+    margin-top: 36px;
+    font-weight: 500;
+}
+.h1{
+    font-size: 6.66rem;
+    line-height: 6.66rem;
+}
+.proposal{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px;
+}
+.structure{
+    width: 90%;
+    margin: 0 auto;
+}
+.pricelist{
+    display: flex;
+    flex-direction: column;
+}
+.rates{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width: 767px){
+    .header{
+        display: block;
+        padding-left: 24px;
+        margin-top: 0;
+    }
+    .h1{
+        font-size: 3.33rem;
+        line-height: 3.33rem;
+    }
+    .yo{
+        padding-top: 120px;
+        margin-top: 0;
+        padding-bottom: 120px;
+    }
+    .client{
+        padding-bottom: 120px;
+    }
+}
+@media print {
+    .heading{
+      padding-top: 200px;
+      padding-bottom: 220px;
+    }
+    .pm-30{
+        padding-top:30px;
+    }
+    .pm-150{
+        padding-top: 160px;
+    }
+}

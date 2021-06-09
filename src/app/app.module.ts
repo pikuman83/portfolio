@@ -13,6 +13,7 @@ import { MbExecutiveComponent } from './projects/mb-executive/mb-executive.compo
 import { TabsComponent } from './tabs/tabs.component';
 import { ContactComponent } from './contact/contact.component';
 import { CvComponent } from './cv/cv.component';
+import { ProposalComponent } from './proposal/proposal.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { CvComponent } from './cv/cv.component';
     MbExecutiveComponent,
     TabsComponent,
     ContactComponent,
-    CvComponent
+    CvComponent,
+    ProposalComponent
   ],
   imports: [
     BrowserModule,
