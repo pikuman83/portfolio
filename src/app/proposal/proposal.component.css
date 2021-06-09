@@ -65,6 +65,9 @@ h3:not(.client h3){
     flex-direction: row;
     justify-content: space-between;
 }
+.dominio{
+    font-size: 11px;
+}
 @media screen and (max-width: 767px){
     .header{
         display: block;
