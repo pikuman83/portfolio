@@ -16,7 +16,7 @@
     color: white;
     justify-content:space-between;
     padding-top: 60px;
-    margin-bottom: 160px;
+    margin-bottom: 124px;
     align-items: flex-start ;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -35,7 +35,6 @@
 }
 .align-right{
     align-self: flex-end;
-    /* margin-top: 250px; */
 }
 .img{
     margin: 0 auto;
@@ -50,51 +49,26 @@
     opacity: 0.9;
     margin-bottom: 160px;
 }
-.collage{
-    display: flex;
-    width: Calc(100% - 60px);
-    margin: 0 auto;
-}
 .img2{
     width: 100%;
     padding-top: 41%;
     background-image: url(../../../assets/dashboardTop.png);
 }
 .img3{
-    width: 33.3%;
-    padding-top: 81%;
-    background-repeat: no-repeat;
-    background-image: url(../../../assets/dashboard-login.png);
-    background-size: contain;
-    position: relative;
-}
-.img4{
-    width: 33.3%;
-    top: 20%;
-    padding-top: 81%;
-    background-repeat: no-repeat;
-    background-image: url(../../../assets/dashboard-mobile.png);
-    background-size: contain;
-    position: relative;
-}
-.img5{
-    width: 33.3%;
-    top: 20%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-top: 81%;
-    background-image: url(../../../assets/dashboard-mob-daterange.png);
-    position: relative;
+    width: 95%;
+    padding-top: 59.8%;
+    background-image: url(../../../assets/dashboard-collage.png);
+    opacity: 0.9;
 }
 .img6{
     width: 95%;
-    padding-top: 49%;
+    padding-top: 45.8%;
     background-image: url(../../../assets/dashboard-dialogue.png);
     opacity: 0.9;
 }
 .img7{
     width: 95%;
-    padding-top: 49%;
+    padding-top: 39%;
     background-image: url(../../../assets/dashboardTop.png);
     opacity: 0.9;
 }
@@ -158,6 +132,7 @@ li{
         margin: 0 auto;
         text-align: center;
         background-position-x: center;
+        width: 95%;
     }
     h2{
         font-size: medium;
@@ -174,7 +149,9 @@ li{
         padding-top: 0;
     }
     .par-left{
-        max-width: unset;
+        max-width: 95%;
+    }
+    .header .par-left{
         padding-top: 60px;
     }
     .mb-60{
@@ -195,6 +172,15 @@ li{
         width: 100%;
         margin: 30px auto;
         text-align: center;
+    }
+    .img4{
+        background-position: right;
+    }
+    .img3{
+        background-position: center;
+    }
+    .pd-30-60{
+        margin: 60px auto;
     }
     .reports{
         width: 95%;

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-html, body { height: 100%; }
+html, body { height: 100%; overflow-x: hidden; }
 body { margin: 0; font-family: 'Roboto Slab', serif; }
 a, a:visited, a:hover {
   color: gray;
@@ -14,8 +14,8 @@ a:hover {
     max-width: 95%;
     margin: 0 auto;
 }
-.pb-48{
-  padding-bottom: 48px;
+.pb-60{
+  padding-bottom: 60px;
 }
 .route{
   font-family: 'Montserrat', sans-serif;
