@@ -1,7 +1,7 @@
 .container{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.8rem;
     background-color: gainsboro;
 }
 .header{
@@ -11,6 +11,10 @@
 .yo, .client{
     margin: 24px auto;
     padding-top: 8px;
+}
+.gray{
+    color: gray;
+    line-height: 2rem;
 }
 .separator{
     border-left: 1px darkgray solid;
@@ -85,6 +89,10 @@ h3:not(.client h3){
     }
     .client{
         padding-bottom: 120px;
+    }
+    .proposal{
+        width: 95%;
+        padding: 60px 0 60px 0;
     }
 }
 @media print {
