@@ -1,96 +1,324 @@
-<div class="route"><a class="back" routerLink="/profile"><img src="../../../assets/icons8-back-arrow-24.png"></a><p class="routeMap">Projects > MB-FinanceWise</p></div>
-<div class="header">
-    <h2>FinanceWise</h2>
-    <h1>An "Enterprise Resource Planning" system, 
-        <br>aligning financial management, human resources, supply chain management,
-        <br> manufacturing and distribution with the core function of accounting.</h1>
-    <img class="img-shadow" alt="ERP" (window:resize)="respWidthP($event)" src="../../../assets/mbfw-cashreceipt.png" [width]="width">
+<div class="route"><a class="back" routerLink="/profile"><img src="../../../assets/icons8-back-arrow-24.png"></a>
+    <p class="routeMap">Projects <img style="vertical-align: text-top;" src="../../../assets/icons8-more-than-16.png"> FinanceWise</p>
 </div>
 
-<div class="inner-container">
-    <div class="briefing">
-        <div class="tech">
-            <h2>TECHNOLOGIES</h2>
-            <p>.NET Core</p>
-            <p>Angular Framework</p>
-            <p>ASP.NET</p>
-            <p>MSSQL</p>
-            <p>SAP Crystal Reports</p>
-            <p>Bootstrap</p>
+<div class="title">
+    <span class="heading">FinanceWise</span>
+</div>
+<div class="header">
+    <div class="caption">
+        ERP
+        <br>Progressive Web App
+        <br>July 2020 / Dec 2020
+    </div>
+
+    <div class="par-left">
+        An "Enterprise Resource Planning" system, aligns <span class="bold">financial management</span>, 
+        <span class="italic">distribution</span> and <span class="bold">supply chain management</span> with the 
+        core accounting functions to <span class="italic">increase profitability,</span> provide full control over the business and 
+        make it error proof.
+    </div>
+</div>
+
+<div class="img img1 mb-60"></div>
+
+<div class="inner-container1">
+    <div class="section2">
+        <div class="par-1 pd-30-60">
+            MB-Tech is a specialized accounting based softwares company having a strong hold over shoe market industry 
+            in Pakistan. In the early days of the pandamic, they rapidly detected the need of <span class="bold">remote 
+            working</span> their clients might require. For which they hired me to <span class="italic">completely re-develop</span> one of their 
+            major apps, using web based technologies.
+            After Some studies and meetings held remotely, the following conclusions were made;
+            <ul>
+                <li>Create a totally new UI</li>
+                <li>Use same database for easy migration of a huge system</li>
+                <li>Reuse the Reports using a separate backend project as it was not supported by .NET Core</li>
+            </ul>
         </div>
+    
+        <div class="img img4"></div>
+
+        <div class="par-2">
+            I started developing with this project as my first. I was able to work on a decent pace, 
+            thanks to the <span class="bold">high motivation</span> caused by the challenges like 
+            <span class="italic"> app architecture</span>, access the secured API endpoints, State Control using singleton Services, 
+            asynchronous task processing, SAP crystal reports incorporation, <span class="bold">complex data queries,</span> 
+            sortable paginated tables, personalize manifest.webmanifest with manual prompts and 
+            deployments on platforms like <span class="italic">Azure,</span> IIS, smarterasp.net, <span class="italic">firebase</span> and netlify.
+        </div>
+
+        <div class="img img3"></div>
+
+        <div class="par-3">
+            This PWA analyses <span class="bold">data</span> through integrated <span class="italic">Finance Management, 
+            Purchase, Sales, Production & Inventory</span> departments to visualise all aspects of the business in real-time, 
+            enabling <span class="bold">advanced reporting</span> for confident and timely decision making.
+        </div>
+
+        <div class="img img7"></div>
+
+        <div class="par-4">
+            <p style="text-align: center; padding-bottom: 60px;">Following is the list of the built Modules, 
+                their input vouchers & outputs;</p>
+            <span class="numbers">01</span> 
+            <span class="heading1">Finance Module</span>
+            <p>Based on strong and tested accounting functions, handles the <span class="bold">general ledger</span> of the company, 
+                keeps you up-to-date with financial assets and provide all kind of reports for <span class="italic">forecasting, 
+                budgeting</span> and <span class="italic">planning</span>  
+                on a few clicks.</p>
+            <div class="vouchers">
+                <div class="outputs">
+                    <h2>Outputs</h2>
+                    <p>Chart of Accounts</p>
+                    <p>Cash Book</p>
+                    <p>Account Ledger</p>
+                    <p>Group Account</p>
+                    <p>Cheque status</p>
+                    <p>Screen Ledger</p>
+                </div>
+                <div class="inputs">
+                    <h2>Inputs</h2>
+                    <p>Opening Journal</p>
+                    <p>Cash / Cheque receipt</p>
+                    <p>Cash / Cheque payment</p>
+                    <p>Bank Voucher</p>
+                    <p>Journal Voucher</p>
+                </div>
+            </div>                   
+                
+            <span class="numbers">02</span>
+            <span class="heading1">Purchase Module</span>
+            <p>A complete purchasing system prepared to handle organizations with <span class="bold">multiple headquarters,</span> 
+                takes care of the <span class="bold">procurement,</span> providing multiple tools, from <span class="italic">planning</span> 
+                to <span class="italic">requisition,</span> from gate pass to stock placement and the <span class="italic">purchase invoice</span> etc. 
+                It controls the <span class="bold">supply</span> and <span class="bold">inventory</span> and eliminates the error margins by 100%, 
+                automating the interdepartamental communication between front office and warehouses.</p>
+            <div class="vouchers">
+                <div class="outputs">
+                    <h2>Outputs</h2>
+                    <p>Purchase Report</p>
+                    <p>Purchase Return</p>
+                    <p>Periodic Purchase statement</p>
+                    <p>GRN Report</p>
+                </div>
+                <div class="inputs">
+                    <h2>Inputs</h2>
+                    <p>Purchase Order</p>
+                    <p>Goods Receipt Note / Barter In</p>
+                    <p>Purchase Voucher</p>
+                    <p>Purchase Return</p>
+                    <p>Purchase Journal</p>
+                    <p>Purchase Order Cancellation</p>
+                </div>
+            </div>
+
+            <span class="numbers">03</span>
+            <span class="heading1">Sales Module</span>
+            <div class="vouchers">
+                <div class="outputs">
+                    <h2>Outputs</h2>
+                    <p>Cash</p>
+                    <p>Sales</p>
+                    <p>Sales Return</p>
+                    <p>Periodic Sales Statement</p>
+                    <p>Unsold Items</p>
+                    <p>Product Repeat</p>
+                    <p>Periodic Purcha</p>
+                    <p>Sales/Recovery Comparison</p>
+                    <p>Sales/Production Comparison</p>
+                    <p>Fast Sales Summary</p>
+                    <p>Pending Order Status</p>
+                    <p>New pending Order Status</p>
+                    <p>Sales Order Report</p>
+                </div>
+                <div class="inputs">
+                    <h2>Inputs</h2>
+                    <p>Sale Order</p>
+                    <p>Delivery Note / Barter Out</p>
+                    <p>Credit / Cash Sale</p>
+                    <p>Sale Return</p>
+                    <p>Bilty Update</p>
+                    <p>Claims</p>
+                    <p>Sale Journal</p>
+                    <p>Sale Order Cancellation</p>
+                </div>
+            </div>
+                
+            <span class="numbers">04</span>
+            <span class="heading1">Production Module</span>
+            <div class="vouchers">
+                <div class="outputs">
+                    <h2>Outputs</h2>
+                    <p>Production Report</p>
+                    <p>Contractor Production Report</p>
+                </div>
+                <div class="inputs">
+                    <h2>Inputs</h2>
+                    <p>Individual production</p>
+                    <p>Multiple production</p>
+                    <p>Product Planning</p>
+                    <p>Stock Issuance</p>
+                    <p>Stock Return</p>
+                    <p>Stock Consumption</p>
+                    <p>Periodic Report</p>
+                    <p>Contractor Report</p>
+                    <p>Production PLanning</p>
+                </div>
+            </div>
+                
+            <span class="numbers">05</span>
+            <span class="heading1">Inventory Module</span>
+            <div class="vouchers">
+                <div class="outputs">
+                    <h2>Outputs</h2>
+                    <p>Product Listing</p>
+                    <p>Product Ledger</p>
+                    <p>Stock Balance</p>
+                    <p>Stock Ageing</p>
+                    <p>Dead Stock</p>
+                    <p>Stock Transfer</p>
+                    <p>Stock Consumption</p>
+                </div>
+                <div class="inputs">
+                    <h2>Inputs</h2>
+                    <p>Stock Transfer</p>
+                    <p>Stock Transfer Acknowledgement</p>
+                    <p>Stock Consumption</p>
+                    <p>Stock Inward</p>
+                    <p>Production Change</p>
+                    <p>Gate Pass</p>
+                </div>
+            </div>
+        
+            <span class="numbers">06</span>
+            <span class="heading1">Customers / Suppliers</span>
+            <p>
+                Remote submission of these profiles from within any voucher they are required, allows 
+                the user to select a customer or supplier with its initials or from a dropdown list which 
+                shows their current <span class="italic">balance at real-time</span>. Sales vouchers evaluates 
+                the <span class="bold">personalized rates</span> for each client using the price and discounts lists. 
+                Suppliers profiles plays a very important role in production for <span class="italic">cost evaluation</span>. 
+                Finally all the data set returns a nice output where any supplier or customer's <span class="bold">
+                history or statistics</span> can be viewed with a very user friendly interface. 
+            </p>
+            <div class="vouchers">
+                <div class="outputs">
+                    <h2>Outputs</h2>
+                    <p>Listing</p>
+                    <p>Balance</p>
+                    <p>Ledger</p>
+                    <p>Aging</p>
+                    <p>Recovery</p>
+                    <p>Discount Policy</p>
+                </div>
+                <div class="inputs">
+                    <h2>Inputs</h2>
+                    <p>Customers / Suppliers Vouchers</p>
+                    <p>Main Group</p>
+                    <p>Sub Group</p>
+                    <p>Cities</p>
+                </div>
+            </div>
+
+            <span class="numbers">07</span>
+            <span class="heading1">Others</span>
+            <p>
+                Last but not least, from the following inputs, <span class="bold">Accounts</span> voucher with a 
+                very simple UI is the backbone of the app. It enables the user to submit data very easily, which is 
+                later used to make complex internal operations in different sectors of the organization.
+                <span class="bold">Products</span> voucher lets you add a new product from the dropdown list within 
+                any voucher it is required. Other input vouchers lets you handle the pricelists and discounts both 
+                globally or client-wise.
+            </p>
+            <div class="vouchers">
+                <div class="outputs">
+                    <h2>Outputs</h2>
+                    <p>Daily Log</p>
+                    <p>Expense Comparison</p>
+                    <p>Periodic Expense</p>
+                    <p>User Activity Log Sheet</p>
+                    <p>Trial Balance</p>
+                    <p>Master Trial Balance</p>
+                    <p>Profit/Loss Statement</p>
+                    <p>Profit/Loss Comparison</p>
+                    <p>Periodic Profit/Loss Ratio</p>
+                    <p>Balance Sheet</p>
+                    <p>Balance Sheet Comparison</p>
+                </div>
+                <div class="inputs">
+                    <h2>Inputs</h2>
+                    <div>
+                        Accounts
+                        <ul>
+                            <li>Main Group</li>
+                            <li>Sub Group</li>
+                        </ul>
+                    </div>
+                    <div>
+                        Products
+                        <ul>
+                            <li>Sub Group</li>
+                            <li>Colors</li>
+                        </ul>
+                    </div>
+                    <p>Customer Pricelist</p>
+                    <p>Global Pricelist</p>
+                    <p>Discount Policies</p>
+                    <p>Transporters</p>
+                    <p>Locations</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="img img6"></div>
+
+    </div>
+    <div class="briefing">
         <div class="services">
-            <h2>SERVICES</h2>
+            <h2>Services</h2>
             <p>Project Management</p>
             <p>Frontend Development</p>
             <p>Backend Development</p>
             <p>Deployments & Hostings</p>
         </div>
-    </div>
-    <div class="section3">
-        <p class="heading1">Overview</p>
-        <p>This PWA analyses data through integrated Finance Management, Purchase, Sales, 
-            Production & Inventory departments to provide real-time visibility into all corners of the business, 
-            as well as advanced reporting to enable confident and timely decision making.
-            Regarding the HR department, the app covers features like employee's finance, salary slips, reports,
-            advance payments, overtime, attendance etc.
-        </p>
-        
-<!--         <p>This PWA analyses data through integrated Finance Management, Purchase, Sales, 
-            Production & Inventory departments to visualise all aspects of the business in real-time, 
-            enabling advanced reporting for confident and timely decision making.
-            Regarding the HR department, the app covers features like employee's finance, salary slips, reports,
-            advance payments, overtime, attendance etc.
-        </p> -->
-
-        <p class="heading1">Key Challenges</p>
-        <p> 
-            Directly after 2 months of tutorials from MDN, Angular Docs and some Blogs to quickly start-up 
-            the backend part of the app, I started developing with this project as my first.
-            With so many aspects in mind, the app architecture was the first challenge.
-            Some of the other technical challenges were securing the API endpoints, State Control using singleton Services, 
-            asynchronous task processing, SAP crystal reports incorporation using FOC tools, deployments on various 
-            platforms (Azure, IIS, smarterasp.net, firebase, netlify ...).
-        </p>
-        
-        <div class="central-image img-shadow" (window:resize)="respWidthP($event)">
-            <img src="../../../assets/mbfw-formulation-mobile.png" alt="MBFW" [width]="width"> 
+        <div class="services">
+            <br>
+            <br>
+            <h2>Tools</h2>
+            <p>Angular Framework</p>
+            <p>.NET Core</p>
+            <p>ASP.NET</p>
+            <p>SAP Crystal Reports</p>
+            <p>Ngx-Charts</p>
+            <p>Angular Material</p>
+            <p>Bootstrap</p>
+            <br>
+            <br>
+            <h2>Data</h2>
+            <p>MSSQL</p>
+            <p>Sql Queries</p>
+            <p>LINQ</p>
+            <br>
+            <br>
         </div>
-        
-        <p class="heading1">Development & Tools</p>
-        <ul>
-            <li>The frontend is developed using Angular framework, .Net Core is used to connect to the 
-                MSSQL database and to create resources, also ASP.NET is used to read and export reports made 
-                in SAP Crystal Reports.</li>
-            <li>In terms of languages, the code marked up by HTML has been decorated through CSS and Bootstrap, 
-            TypeScript & JavaScript has brought the logic to the frontend under Angular Framework, C# has taken 
-            care of the backend and SQL Queries & LINQ to analyse data.</li>
-            <li>The app was first deployed and hosted in Azure and later-on was shifted to a personal server of 
-                the company through IIS. </li>
-            <li>Local storage, Session storage, Singleton Services are used to store and handle the data on the client side.</li>
-            <li>A Splash screen showing log is used with "Resolver" to load the data and dashboard on the app start.</li>
-            <li>Ngx-charts to enhance the view of the landing page.</li>
-            <li>Angular material has brought the elegance, specially to sortable paginated tables.</li>
-            <li>Frontend routes has been secured by guard and http interceptor, the user is validated through JWT. 
-                Also a 20 minutes inactivity logout at the client side and token expiration on the server has been added.</li>
-            <li>For the web, manifest.webmanifest has personalized the app installation, 
-                also a manual installation prompt and instructions has been added.</li>
-            <li>An APK of the app has also been developed using cordova.</li>
-        </ul>
-
-        <p class="heading1">Timeline</p>
-        <p>
-            Project kick-off was the mid-July, 2020.
-            Several months later, in December 2020, the app, with 70%+ Pitch Management flow ready, 
-            was shifted to the Q&A for bug triage and a detailed testing. 
-            This is when unfortunately we had to pause the project due to the financial crises caused 
-            by the pandemic. Therefore, a new smaller project was renegotiated for the client who was already 
-            using the desktop version of this ERP, a PWA with <a routerLink="/mbExecutive">Executive dashboard & Reports</a>.  
-        </p>
-
-    <p class="heading1"><img src="../../../assets/icons8-github-48.png"></p>
-    <ul>
-        <li><a href="https://github.com/pikuman83/Omega19" target="_blank">Frontend</a></li>
-        <li><a href="https://github.com/pikuman83/mbfwBK" target="_blank">Backend</a></li>
-    </ul>
-    </div>
+        <div class="tech">
+            <h2>Languages</h2>
+            <p>Back-end</p>
+            <img src="../../../assets/mbfw-lang-BEpng.png" alt="languages" width="280px">
+            <br><br>
+            <p>Front-end</p>
+            <img src="../../../assets/mbfw-languages-FEpng.png" alt="languages" width="280px">
+        </div>
+        <a href="https://github.com/pikuman83/mbfwBK" target="_blank" rel="noopener" title="Click to open the github repository of the project"><img class="billi" src="../../../assets/icons8-github-48.png"> Github Backend</a>
+        <a href="https://github.com/pikuman83/Omega19" target="_blank" rel="noopener" title="Click to open the github repository of the project"><img class="billi" src="../../../assets/icons8-github-48.png"> Github Frontend</a>
+    </div>             
 </div>
+
+<!-- <p>
+        In December 2020, the app, with 70%+ Pitch Management flow ready, 
+        was shifted to the Q&A for bug triage and a detailed testing. 
+        This is when unfortunately we had to pause the project due to the financial crises caused 
+        by the pandemic. Therefore, a new smaller project was renegotiated for the client who was already 
+        using the desktop version of this ERP, a PWA with <a routerLink="/mbExecutive">Executive dashboard & Reports</a>.  
+    </p> -->

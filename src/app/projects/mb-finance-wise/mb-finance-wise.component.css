@@ -1,77 +1,253 @@
+.title{
+    width: 95%;
+    margin: 0 auto;
+}
+.heading{
+    display: block;
+    font-size: 6rem;
+    line-height: 6rem;
+    color: white;
+    padding-top: 160px;
+}
 .header{
-    max-width: 80%;
+    max-width: 95%;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
     color: white;
-    justify-content: center;
-    text-align: center;
+    justify-content:space-between;
     padding-top: 60px;
-    margin-bottom: 60px;
-    align-items: center ;
+    margin-bottom: 124px;
+    align-items: flex-start ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
 }
-h1{
-    font-size: 2rem;
-    margin-bottom: 60px;
-    line-height: normal;
+.caption{
+    color:white;
+    font-size: small;
 }
-.briefing{
+.par-left{
+    max-width: 50%;
+}
+.par-1{
+    width: 60%;
+}
+.pd-30-60{
+    margin: 60px 30px 0;
+}
+.align-right{
+    align-self: flex-end;
+}
+.img{
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img1{
+    width: 95%;
+    padding-top: 48%;
+    background-image: url(../../../assets/mbfw-cashreceipt.png);
+    opacity: 0.9;
+    margin-bottom: 160px;
+    margin: 160px auto;
+    align-self: center;
+}
+.img2{
+    width: 100%;
+    padding-top: 41%;
+    background-image: url(../../../assets/dashboardTop.png);
+}
+.img3{
+    width: 33.3%;
+    padding-top: 72.3%;
+    background-image: url(../../../assets/mbfw-mobile.png);
+    border-radius: 24px;
+    opacity: 0.9;
+    margin: 160px 30px;
+    /* position: relative; */
+    /* bottom: 60px; */
+}
+.img4{
+    width: 33.3%;
+    padding-top: 59.3%;
+    background-image: url(../../../assets/mbfw-splash.png);
+    border-radius: 24px;
+    opacity: 0.9;
+    align-self: flex-end;
+    margin: 160px 30px;
+}
+.img6{
+    width: 95%;
+    padding-top: 47%;
+    background-image: url(../../../assets/mbfw-dialogue.png);
+    opacity: 0.9;
+    align-self: center;
+    margin: 160px 30px 60px;
+}
+.img7{
+    width: 95%;
+    padding-top: 45%;
+    background-image: url(../../../assets/mbfw-formulation-mobile.png);
+    opacity: 0.9;
+    margin: 160px 30px;
+    align-self: center;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.inner-container1{
+    background-color:white;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+.section2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 280px);
+}
+.par-2{
+    margin: 0 30px;
+    align-self: flex-end;
+    width: 60%;
+}
+.par-3{
+    margin: 0 30px;
+    width: 60%;
+}
+.par-4{
+    margin: 0 30px;
+    align-self: center;
+    width: 95%;
+    display: block;
+}
+.numbers{
+    display: block;
+    color: #F16A6B;
+    font-weight: bolder;
+    margin: 60px 0 16px;
+}
+.heading1{
+    display: block;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 60px;
+}
+.vouchers{
     display: flex;
     justify-content: space-around;
     color: gray;
-    padding: 40px;
+    font-family: 'Roboto Slab', serif;
 }
+.outputs{
+    padding-top: 160px;
+}
+.problem{
+    max-width: 100%;
+}
+.reports{
+    text-align: center;
+    margin: 60px;
+}
+.briefing{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    color: gray;
+    margin: none;
+    background-color: #f5f5f5;
+    padding: 8px;
+    padding-top: 36px;
+    justify-content:flex-start;
+}   
 .tech{
     display: block;
-}
-.heading1{
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin: 40px 8px 40px 0;
-}
-.section3{
-    max-width: 50%;
-    margin: 0 auto;
-    padding-bottom: 24px;
-    font-size: 1.2rem;
-    line-height: normal;
-}
-.services, .tech{
-    border-left: 1px lightgray solid;
-    padding: 0 8px 0 8px;
 }
 li{
     margin-left: 40px;
     line-height: 2rem;
 }
-footer{
-    font-size: small;
-    font-style: italic;
-    color: gray;
-    margin-top: 60px;
-    padding-bottom: 16px;
-}
-.central-image{
-    display: flex;
-    margin: 48px 0 48px 0;
-    justify-content: center;
-}
-.img-shadow{
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
-}
-
 .routeMap{
     margin: 8px;
 }
-
+.billi{
+    padding-top: 16px;
+}
 @media screen and (max-width: 767px){
-    .section3{
-        max-width: 90%;
+    .section2{
+        max-width: unset;
+        width: 95%;
+        padding: 24px 8px 8px 8px;
+    }
+    .briefing{
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .collage{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        background-position-x: center;
+        width: 95%;
     }
     h2{
         font-size: medium;
+        font-weight: 600;
     }
     ul{
         padding: 0;
+    }
+    .heading{
+        font-size: 4rem;
+    }
+    .heading1{
+        font-size: 2rem;
+    }
+    .header{
+        display: block;
+        padding-top: 0;
+    }
+    .par-left{
+        max-width: 95%;
+    }
+    .header .par-left{
+        padding-top: 60px;
+    }
+    .mb-60{
+        margin-bottom: 60px;
+    }
+    .mt-60{
+        margin-top: 60px;
+    }
+    .inner-container1{
+        display: block;
+    }
+    .img3, .img4, .img5{
+        position: unset;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .img4{
+        width: 95%;
+        padding-top: 170%;
+    }
+    .img3{
+        width: 95%;
+        padding-top: 206.9%;
+    }
+    .pd-30-60{
+        margin: 60px auto 0;
+    }
+    .reports{
+        width: 95%;
+        margin: 60px auto;
     }
 }

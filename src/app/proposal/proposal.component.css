@@ -71,6 +71,7 @@ h3:not(.client h3){
 }
 .dominio{
     font-size: 11px;
+    line-height: 1rem;
 }
 @media screen and (max-width: 767px){
     .header{
