@@ -34,15 +34,20 @@ a:hover {
   align-items: center;
 }
 .italic{
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: 300;
   font-size: 1.4rem;
+  line-height: 1.4rem;
 }
 .bold{
   font-size: 1.4rem;
   font-weight: 300;
+  line-height: 1.4rem;
 }
 @media print {
+  body{
+    height: auto;
+  }
   .hideOnPrint{
     display: none;
   }
