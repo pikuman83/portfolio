@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { MbFinanceWiseComponent } from './mb-finance-wise.component';
 
 describe('MbFinanceWiseComponent', () => {
@@ -22,4 +21,8 @@ describe('MbFinanceWiseComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('test'), () => {
+    component.utest();
+    expect(component.utest).toThrow("my first test test")
+  }
 });

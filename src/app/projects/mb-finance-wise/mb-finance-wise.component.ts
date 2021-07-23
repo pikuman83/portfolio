@@ -32,4 +32,7 @@ export class MbFinanceWiseComponent implements OnInit, OnDestroy {
       this.width = 800;
     }
   }
+  utest = () => {
+    return "my first unit test test"
+  }
 }
