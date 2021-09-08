@@ -9,8 +9,12 @@ a, a:visited, a:hover {
 a:hover {
   color: #F16A6B;
 }
+.max-width-12{
+  max-width: 1200px;
+}
 .inner-container{
     background-color:white;
+    /* width: fit-content; */
     max-width: 95%;
     margin: 0 auto;
 }

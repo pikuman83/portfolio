@@ -6,15 +6,15 @@
 <!-- (selectedIndexChange)="saveIndex($event)" -->
 <div class="inner-container">
   <mat-tab-group mat-align-tabs="end" [selectedIndex]="1">
-      <mat-tab label="Profile">
+      <mat-tab class="max-width-12" label="Profile">
         <app-profile></app-profile>
       </mat-tab>
     
-      <mat-tab label="Projects">
+      <mat-tab class="max-width-12" label="Projects">
         <app-projects></app-projects>
       </mat-tab>
 
-      <mat-tab label="Curriculum Vitae">
+      <mat-tab class="max-width-12" label="Curriculum Vitae">
         <app-cv></app-cv>
       </mat-tab>
   </mat-tab-group>
