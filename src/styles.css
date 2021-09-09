@@ -14,8 +14,8 @@ a:hover {
 }
 .inner-container{
     background-color:white;
-    /* width: fit-content; */
     min-width: 100%;
+    min-height: 80vh;
     margin: 0 auto;
 }
 .pb-60{
