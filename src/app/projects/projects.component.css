@@ -6,6 +6,7 @@
     padding: 30px 0;
     text-align: center;
     min-height: calc(100vh - 384.2px);
+    margin: 0 auto;
 }
 .project-name{
     font-size: 2rem;
