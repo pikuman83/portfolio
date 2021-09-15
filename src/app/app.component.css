@@ -1,6 +1,15 @@
 .outer-container{
-  background-image: url(../assets/gradientbg.jpg);
+  background: url(../assets/gradientbg.jpg) left top,
+  url(../assets/alberto-zanetti-I4WSyUKvJ2U-unsplash.jpg) center bottom;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 400px, cover;
   min-height: 100%;
+}
+@media screen and (max-width: 767px){
+  .outer-container{
+    background: url(../assets/gradientbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+  }
 }
