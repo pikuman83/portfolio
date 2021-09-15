@@ -38,18 +38,6 @@ a:hover {
   justify-content: center;
   background-color: lightgray;
 }
-/* .route{
-  font-family: 'Montserrat', sans-serif;
-  color: lightgray;
-  display: flex;
-  background-color: #6c757d;
-  margin: 0 30px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  opacity: 0.8;
-  z-index: 2;
-} */
 .back{
   background-color: white;
   padding: 4px;

@@ -82,10 +82,10 @@ h2 {
     #email{
         word-break: break-all;
     }
-    #language{
+    /* #language{
         font-size: smaller;
-    }
-    .printPageMargin{
+    } */
+    /* .printPageMargin{
         margin-top: 100px;
-    }
+    } */
 }
