@@ -14,6 +14,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { ContactComponent } from './contact/contact.component';
 import { CvComponent } from './cv/cv.component';
 import { ProposalComponent } from './proposal/proposal.component';
+import { BbForInvestorsComponent } from './projects/bb-for-investors/bb-for-investors.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ProposalComponent } from './proposal/proposal.component';
     TabsComponent,
     ContactComponent,
     CvComponent,
-    ProposalComponent
+    ProposalComponent,
+    BbForInvestorsComponent
   ],
   imports: [
     BrowserModule,

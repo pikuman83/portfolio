@@ -9,24 +9,6 @@ export class MbExecutiveComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-    this.respWidth();
-  }
-
-  width: number = 800;
-  // width = window.innerWidth - 10;
-
-  respWidth(){
-    if (window.innerWidth <= 850) {
-      this.width = 350;
-    }
-  }
-  respWidthP(event: any){
-    if (event.target.innerWidth <= 850){
-      this.width = 350;
-    }
-    else{
-      this.width = 800;
-    }
-  }
+  ngOnInit(): void {}
+  
 }
