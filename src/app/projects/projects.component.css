@@ -1,34 +1,38 @@
 .container{
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-around;
     max-width: 1024px;
-    padding: 30px 0;
+    padding: 30px 0; */
     text-align: center;
-    min-height: calc(100vh - 384.2px);
-    margin: 0 auto;
+    /* min-height: calc(100vh - 384.2px);
+    margin: 0 auto; */
     padding: 50px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .container > div {
-    margin: 50px;
+    margin: 100px auto;
 }
 .project-name{
     font-size: 2rem;
     margin: 48px auto;
     text-align: center;
+    font-family: Roboto Slab,serif;
 }
 .img, .img1, .img2{
     filter: drop-shadow(2px 2px 4px gray);
 }
 .img:hover{
-    filter: hue-rotate(150deg);
+    /* filter: hue-rotate(150deg); */
+    filter: contrast(0.5);
 }
 .img1:hover{
-    filter:saturate(10);
+    /* filter:saturate(10); */
+    filter: contrast(0.5);
 }
 .img2:hover{
-    filter: hue-rotate(45deg);
+    /* filter: hue-rotate(45deg); */
+    filter: contrast(0.5);
 }
 .caption{
     margin-top: 16px;

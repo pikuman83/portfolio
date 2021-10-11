@@ -7,10 +7,11 @@
 }
 .heading{
     display: block;
-    font-size: 6rem;
+    font-size: 3.2rem;
     line-height: 100%;
     color: white;
     padding-top: 60px;
+    font-family: Roboto Slab,serif;
 }
 .header{
     max-width: 95%;
