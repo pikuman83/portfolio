@@ -59,7 +59,9 @@ h2 {
     margin-bottom: 0px !important;
     font-size: 16px;
 }
-
+.company{
+    font-family: 'Roboto Slab', serif;
+}
 @media screen and (max-width: 767px) {
     .sidecol, .main{
         display: block;
