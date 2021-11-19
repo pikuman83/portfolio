@@ -12,7 +12,8 @@ const routes: Routes = [
   {path: 'financeWise', component: MbFinanceWiseComponent},
   {path: 'mbExecutive', component: MbExecutiveComponent},
   {path: 'bbForInvestors', component: BbForInvestorsComponent},
-  {path: 'propuestaBB', component: ProposalComponent}
+  {path: 'propuestaBB', component: ProposalComponent},
+  { path: 'argonia', loadChildren: () => import('./proposals/proposals.module').then(m => m.ProposalsModule) }
 ];
 
 @NgModule({
