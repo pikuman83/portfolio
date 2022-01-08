@@ -76,7 +76,7 @@ a:hover {
     display: none;
   }
   .divider{
+    margin: 2px;
     border-top: 1px solid grey;
-    margin-bottom: 2px;
   }
 }

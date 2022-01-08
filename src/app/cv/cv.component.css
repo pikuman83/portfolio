@@ -24,6 +24,9 @@
 .sidecol > * {
     list-style: none;
 }
+ul {
+    padding-left: 12px;
+}
 .motivation{
     border-bottom: 1px solid grey;
     padding-bottom: 24px;
@@ -55,6 +58,9 @@ h1{
     border-bottom-right-radius: 4px;
     padding-left: 8px;
 }
+h1:not(h1:first-of-type){
+    border-top: solid 1px;
+}
 h2 {
     margin-bottom: 0px !important;
     font-size: 16px;
@@ -84,10 +90,4 @@ h2 {
     #email{
         word-break: break-all;
     }
-    /* #language{
-        font-size: smaller;
-    } */
-    /* .printPageMargin{
-        margin-top: 100px;
-    } */
 }
