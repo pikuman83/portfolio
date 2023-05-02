@@ -6,17 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatTabsModule} from '@angular/material/tabs';
-import { ProjectsComponent } from './projects/projects.component';
-import { ProfileComponent } from './profile/profile.component';
-import { MbFinanceWiseComponent } from './projects/mb-finance-wise/mb-finance-wise.component';
-import { MbExecutiveComponent } from './projects/mb-executive/mb-executive.component';
+import { ProjectsComponent } from './tabs/projects/projects.component';
+import { ProfileComponent } from './tabs/profile/profile.component';
+import { MbFinanceWiseComponent } from './tabs/projects/mb-finance-wise/mb-finance-wise.component';
+import { MbExecutiveComponent } from './tabs/projects/mb-executive/mb-executive.component';
 import { TabsComponent } from './tabs/tabs.component';
-import { ContactComponent } from './contact/contact.component';
-import { CvComponent } from './cv/cv.component';
-import { ProposalComponent } from './proposal/proposal.component';
-import { BbForInvestorsComponent } from './projects/bb-for-investors/bb-for-investors.component';
-
-
+import { ContactComponent } from './ui/contact/contact.component';
+import { CvComponent } from './tabs/cv/cv.component';
+import { BbForInvestorsComponent } from './tabs/projects/bb-for-investors/bb-for-investors.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +24,6 @@ import { BbForInvestorsComponent } from './projects/bb-for-investors/bb-for-inve
     TabsComponent,
     ContactComponent,
     CvComponent,
-    ProposalComponent,
     BbForInvestorsComponent
   ],
   imports: [
