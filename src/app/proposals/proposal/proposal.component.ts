@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AppComponent } from '../app.component';
+import { AppComponent } from 'src/app/app.component';
 
 @Component({
   selector: 'app-proposal',
@@ -8,13 +8,10 @@ import { AppComponent } from '../app.component';
 })
 export class ProposalComponent implements OnInit {
 
-  constructor(private padding: AppComponent) { }
+  constructor(private appComponent: AppComponent) { }
 
   ngOnInit(): void {
-    setTimeout(() => {
-      this.padding.padding = false;
-    }, );
-    
+    setTimeout(() => this.appComponent.padding = false);
   }
 
 }

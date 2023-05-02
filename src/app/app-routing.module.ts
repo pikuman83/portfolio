@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BbForInvestorsComponent } from './projects/bb-for-investors/bb-for-investors.component';
-import { MbExecutiveComponent } from './projects/mb-executive/mb-executive.component';
-import { MbFinanceWiseComponent } from './projects/mb-finance-wise/mb-finance-wise.component';
-import { ProposalComponent } from './proposal/proposal.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { MbFinanceWiseComponent } from './tabs/projects/mb-finance-wise/mb-finance-wise.component';
+import { MbExecutiveComponent } from './tabs/projects/mb-executive/mb-executive.component';
+import { BbForInvestorsComponent } from './tabs/projects/bb-for-investors/bb-for-investors.component';
+import { ProposalComponent } from './proposals/proposal/proposal.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/profile', pathMatch: 'full'},
