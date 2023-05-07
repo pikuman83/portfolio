@@ -69,8 +69,13 @@ a:hover {
   line-height: 1.4rem;
 }
 @media print {
+  * {
+    overflow: hidden;
+  }
+
   body{
     height: auto;
+    overflow: hidden;
   }
   .hideOnPrint{
     display: none;
