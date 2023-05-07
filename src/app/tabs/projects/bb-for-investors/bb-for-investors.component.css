@@ -48,7 +48,7 @@
 .img1{
     width: 95%;
     padding-top: 46.5%;
-    background-image: url(../../../assets/bbInv/bbNews-public.png);
+    background-image: url(/assets/bbInv/bbNews-public.png);
     opacity: 1;
     margin: 30px auto;
     border-radius: 4px;
@@ -57,25 +57,25 @@
 .img3{
     width: 95%;
     padding-top: 61.9%;
-    background-image: url(../../../assets/bbInv/home.png);
+    background-image: url(/assets/bbInv/home.png);
     opacity: 0.9;
 }
 .img6{
     width: 95%;
     padding-top: 58.9%;
-    background-image: url(../../../assets/bbInv/form.png);
+    background-image: url(/assets/bbInv/form.png);
     opacity: 0.9;
 }
 .img7{
     width: 95%;
     padding-top: 117.5%;
-    background-image: url(../../../assets/bbInv/login.png);
+    background-image: url(/assets/bbInv/login.png);
     opacity: 0.9;
 }
 .img8{
     width: 95%;
     padding-top: 51.37%;
-    background-image: url(../../../assets/bbInv/contact-tab.png);
+    background-image: url(/assets/bbInv/contact-tab.png);
     opacity: 0.9;
     margin-bottom: 60px;
 }

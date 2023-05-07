@@ -68,7 +68,7 @@
 .img1{
     width: 100%;
     padding-top: 50%;
-    background-image: url(../../../assets/mbfw-cashreceipt.png);
+    background-image: url(/assets/mbfw-cashreceipt.png);
     margin: 30px auto;
     align-self: center;
     opacity: 1;
@@ -82,13 +82,13 @@
 }
 .img2{
     padding-top: 179%;
-    background-image: url(../../../assets/mbfw-splash.png);
+    background-image: url(/assets/mbfw-splash.png);
     align-self: center;
     filter: drop-shadow(2px 2px 4px gray);
     border-radius: 16px;
 }
 .img3{
-    background-image: url(../../../assets/mbfw-mobile.png);
+    background-image: url(/assets/mbfw-mobile.png);
     padding-top: 217.3%;
     align-self: center;
     filter: drop-shadow(2px 2px 4px gray);
@@ -107,25 +107,25 @@
     width: 100%;
     padding-top: 47.8%;
     margin: 0 auto;
-    background-image: url(../../../assets/mbfw-formulation-mobile.png);
+    background-image: url(/assets/mbfw-formulation-mobile.png);
     filter: drop-shadow(2px 4px 6px black);
 }
 .img5{
     width: 66.6%;
     padding-top: 70.3%;
-    background-image: url(../../../assets/mbfw-multi.png);
+    background-image: url(/assets/mbfw-multi.png);
     margin-bottom: 0;
 }
 .img6{
     width: 66.6%;
     padding-top: 35.5%;
-    background-image: url(../../../assets/mbfw-party.png);
+    background-image: url(/assets/mbfw-party.png);
     margin: 60px auto;
 }
 .img7{
     width: 95%;
     padding-top: 47%;
-    background-image: url(../../../assets/mbfw-dialogue.png);
+    background-image: url(/assets/mbfw-dialogue.png);
     align-self: center;
     margin: 60px auto;
 }
@@ -206,7 +206,7 @@
     .img{margin: 30px auto;width: 95%;}
     .img1{
         padding-top: 45%;
-        background-image: url(../../../assets/mbfw-formulation-mobile.png);
+        background-image: url(/assets/mbfw-formulation-mobile.png);
         filter: drop-shadow(2px 4px 6px black);
     }
     .img2{padding-top: 169.9%;margin: 0 auto;}
@@ -219,7 +219,7 @@
     .img5{padding-top: 100.3%;margin-bottom: 0;}
     .img6{padding-top: 50.5%;}
     .img7{
-        background-image: url(../../../assets/mbfw-dialogue1.png);
+        background-image: url(/assets/mbfw-dialogue1.png);
         padding-top: 328px;
     }
 }

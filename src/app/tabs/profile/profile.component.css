@@ -50,21 +50,21 @@
 }
 .bg1{
   display: inline-block;
-  background-image: url(../../assets/IMG_20160502_234654.jpg);
+  background-image: url(/assets/IMG_20160502_234654.jpg);
 }
 .bg2{
   right: -60px;
   bottom: 80px;
-  background-image: url(../../assets/IMG-20191216-WA0054.jpg);
+  background-image: url(/assets/IMG-20191216-WA0054.jpg);
 }
 .bg3{
   bottom: 120px;
   right: 60px;
-  background-image: url(../../assets/IMG-20181230-WA0256.jpg);
+  background-image: url(/assets/IMG-20181230-WA0256.jpg);
 }
 .bg4{
   bottom: 175px;
-  background-image: url(../../assets/IMG-20190705-WA0026.jpg);
+  background-image: url(/assets/IMG-20190705-WA0026.jpg);
 }
 .bg1:hover, .bg2:hover, .bg3:hover, .bg4:hover{
   z-index: 2;
