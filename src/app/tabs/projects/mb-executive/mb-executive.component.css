@@ -47,7 +47,7 @@
 .img1{
     width: 95%;
     padding-top: 59%;
-    background-image: url(../../../assets/dashboard-charts.png);
+    background-image: url(/assets/dashboard-charts.png);
     opacity: 1;
     margin: 30px auto;
     border-radius: 4px;
@@ -56,19 +56,19 @@
 .img3{
     width: 95%;
     padding-top: 59.8%;
-    background-image: url(../../../assets/dashboard-collage.png);
+    background-image: url(/assets/dashboard-collage.png);
     opacity: 0.9;
 }
 .img6{
     width: 95%;
     padding-top: 45.8%;
-    background-image: url(../../../assets/dashboard-dialogue.png);
+    background-image: url(/assets/dashboard-dialogue.png);
     opacity: 0.9;
 }
 .img7{
     width: 95%;
     padding-top: 39%;
-    background-image: url(../../../assets/dashboardTop.png);
+    background-image: url(/assets/dashboardTop.png);
     opacity: 0.9;
 }
 .inner-container1{
